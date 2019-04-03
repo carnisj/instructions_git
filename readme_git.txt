@@ -95,6 +95,9 @@ Pull commits from GitHub to local repository:  git pull origin master    git pul
 
 Update the local copy of GitHub repository: git fetch origin
 
+List all remotes:              git remote -v
+Remove a remote and references from local repository:  git remote rm remote_name
+
 List all branches:             git branch -a
 Delete remote branch:          git push --delete <remote_name> <branch_name>
 Delete local branch:           git branch -d <branch_name>           use option -D instead of -d for force deleting the branch (irrespective of its merged status)
