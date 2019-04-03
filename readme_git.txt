@@ -114,4 +114,6 @@ eval $(ssh-agent -s    # launch ssh agent
 ssh-add ~/.ssh/id_rsa    # add the new key to the agent
 clip < ~/.ssh/id_rsa.pub    # copy the key to the clipboard
 
-
+to mark release points
+git tag v1.4-lw
+git tag -a v1.4 -m "my version 1.4"
