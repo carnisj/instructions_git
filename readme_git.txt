@@ -117,4 +117,12 @@ eval $(ssh-agent -s    # launch ssh agent
 ssh-add ~/.ssh/id_rsa    # add the new key to the agent
 clip < ~/.ssh/id_rsa.pub    # copy the key to the clipboard
 
+Add an existing repository to GitHub:
+	- create a new repository on GitHub
+	- on the local computer, git init in the project root
+	- git add .   # adds the files and stages them for commit
+	- git commit
+	- git remote add origin remote_repository_URL
+	- git push origin master
+
 
