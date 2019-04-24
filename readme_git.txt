@@ -125,4 +125,6 @@ Add an existing repository to GitHub:
 	- git remote add origin remote_repository_URL
 	- git push origin master
 
-
+to mark release points
+git tag v1.4-lw
+git tag -a v1.4 -m "my version 1.4"
