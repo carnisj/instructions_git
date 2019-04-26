@@ -128,3 +128,4 @@ Add an existing repository to GitHub:
 to mark release points
 git tag v1.4-lw
 git tag -a v1.4 -m "my version 1.4"
+git push origin --tags  or  git push origin v0.0.1
