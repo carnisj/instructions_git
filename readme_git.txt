@@ -129,3 +129,6 @@ to mark release points
 git tag v1.4-lw
 git tag -a v1.4 -m "my version 1.4"
 git push origin --tags  or  git push origin v0.0.1
+remove a tag locally: git tag -d v0.0.1
+remove a remote taf: git push --delete origin v0.0.1
+
