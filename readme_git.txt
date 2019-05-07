@@ -1,3 +1,5 @@
+To configure git bach to start in specific folder, add this line in .bashrc:   cd C:/Users/carnis/Work\ Folders/Documents/myscripts/bcdi/
+
 Start folder:  
 cd C:/Users/carnis/Work\ Folders/Documents/version\ control/reflections
 cd C:/Users/carnis/Work\ Folders/Documents/myscripts/
