@@ -14,3 +14,6 @@ using the source (.tar.gz), one can install the package by running in the root d
 using the source (.tar.gz), one can rebuild the documentation by running make.bat html (Windows) or makefile html (Mac?, Linux) in the doc/ folder
 
 package_data can be used only if the data belongs to a package folder, otherwise it can be included only if written in MANIFEST.in
+
+Upload a distribution on PyPI: twine upload dist/*
+ 
