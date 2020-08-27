@@ -78,10 +78,6 @@ git config --global core.autocrlf true
 Compare a commit with its parent:
 git show commit_id
 
-Merge the master into another branch:
-git checkout branchname
-git merge master branchname
-
 caching GitHub password in Git
 
 Create a remote depository for Git Hub (named origin)
@@ -104,6 +100,9 @@ List all branches:             git branch -a
 Delete remote branch:          git push --delete <remote_name> <branch_name>
 Delete local branch:           git branch -d <branch_name>           use option -D instead of -d for force deleting the branch (irrespective of its merged status)
 
+Merge the master into another branch:
+git checkout branchname
+git merge master branchname
 
 Make a branch the new master:
 git checkout better_branch
@@ -111,6 +110,9 @@ git merge --strategy=ours --no-commit master
 git commit          # add information to the template merge message
 git checkout master
 git merge better_branch             # fast-forward master up to the merge
+
+Delete the last not pushed commit (will lose all later modifications):
+git reset --hard origin/master
 
 git config --global credential.helper wincred
 check for existing ssh keys ls -al ~./ssh

@@ -1,4 +1,4 @@
-Create a binary distribution (for windows, already compiled):  python setup.py bdist_wheel
+Create a binary distribution (for windows, already compiled):  python setup.py sdist bdist_wheel
 
 Upload it on TestPyPi:    twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 
