@@ -16,4 +16,5 @@ using the source (.tar.gz), one can rebuild the documentation by running make.ba
 package_data can be used only if the data belongs to a package folder, otherwise it can be included only if written in MANIFEST.in
 
 Upload a distribution on PyPI: twine upload dist/*
- 
+
+Check a distribution before uploading: twine check dist/*
